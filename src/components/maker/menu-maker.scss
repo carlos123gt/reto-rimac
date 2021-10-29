@@ -1,0 +1,17 @@
+.maker-menu-container {
+  width: 100%;
+  top: 64px;
+
+  font-size: 16px;
+  &_data:before {
+    content: "1";
+    border-radius: 10px solid red;
+    box-sizing: border-box;
+  }
+  &_data {
+    color: #a3abcc;
+  }
+  &_detail {
+    color: #494f66;
+  }
+}
